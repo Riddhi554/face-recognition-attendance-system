@@ -17,7 +17,7 @@ The **Face Recognition Attendance System** automates attendance tracking using s
 ## 🔧 Technologies Used  
 - **Python Libraries**:  
   - OpenCV: For image processing and real-time face detection.  
-  - DeepFace: For facial feature analysis and recognition.  
+  - face_recognition: For facial feature analysis and recognition.   
   - Tkinter: For GUI design and user interaction.  
   - PIL: For handling and processing image data.  
 
@@ -27,11 +27,11 @@ The **Face Recognition Attendance System** automates attendance tracking using s
 
 ### Prerequisites  
 - Python 3.8 or above  
-- Libraries: OpenCV, DeepFace, Tkinter, PIL  
+- Libraries: OpenCV, face_recognition, Tkinter, PIL  
 
 Install dependencies using:  
 ```bash
-pip install opencv-python-headless deepface pillow
+pip install opencv-python-headless face_recognition pillow
 ```
 ## 🖥️ How It Works
 -**Real-Time Attendance**:
@@ -45,5 +45,7 @@ pip install opencv-python-headless deepface pillow
 2. The system will analyze the image, recognize individuals, and mark their attendance.
 
 
-
-
+Run the application 
+```
+python main_file.py
+```
